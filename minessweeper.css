@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+background-color: rgb(24, 24, 39);
+}
+
+h1{
+    text-align: center;
+    color: rgb(241, 215, 215);
+    margin-top: 40px;
+    margin-bottom:40px;
+
+}
+
+.modal{
+    margin: auto;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(163, 202, 219);
+    color: brown;
+    display: none;
+}
+.finished-modal{
+    display:none;
+    width: 500px;
+    height:500px;
+    background-color: rgb(0, 201, 236);
+   
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.board-modal{
+    width: 300px; ;
+    height:70px;
+    background-color: rgb(233, 167, 167);
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: block;
+
+}
+.board-modal button{
+    height: 20px;
+    width:70px;
+    margin-left: 10px;
+    font-size:10px;
+    margin-top: 15px;
+   
+}
+td{
+    box-sizing: border-box;
+    height:40px;
+    width:40px;
+
+    background-color: grey;
+    table-layout: fixed;
+
+  
+}
+img{
+    box-sizing: border-box;
+    height:100%;
+    width: 100%;
+
+}
+ .mpdal button{
+
+    width:90px ;
+  height: 20px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: brown;
+  color: wheat;
+   
+  }
+
+table{
+    
+    margin: auto;
+    color: rgb(194, 122, 122);
+}
+
+.selected{
+    background-color: rgb(59, 59, 59)
+}
+
+.nextLevelButton{
+    display: block;
+}
+
+.best-score{
+    margin: auto;
+    margin-top: 40px;
+    width:300px;
+    height:70px;
+    background-color: rgb(165, 139, 184);
+}
