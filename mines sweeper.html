@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="mines sweeper.css">
+    <title>Document</title>
+</head>
+
+<body onload="init()" oncontextmenu="return false;">
+
+    <h1>mines sweeper !</h1>
+
+    <div class="modal">
+        <span></span><br>
+        <button onclick="reset()">reset</button><button onclick="nextLevel()">next
+            level</button>
+    </div>
+
+    <div class="finished-modal">
+        <img src="img/FINISHED.png" alt="finished">you have finishd all the levels!
+    </div>
+
+    <div class=" board-modal">
+        <button class="life">life : 3</button> <button onclick="revealeOne()">reveale one </button> <button
+            onclick="stopTimer()" class="time"></button>
+    </div>
+    <table border="10" cellpadding="10">
+        <tbody class="board">
+        </tbody>
+    </table>
+    </div>
+
+    <div class="best-score"> </div>
+
+
+    <script src="mines sweeper utils.js"></script>
+    <script src="mines sweeper main.js"></script>
+</body>
+
+</html>
